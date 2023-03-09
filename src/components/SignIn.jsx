@@ -10,7 +10,7 @@ const style = {
 }
 
 function googleSignIn() {
-  const provider = new Firebase.auth.GoogleAuthProvider()
+  const provider = new GoogleAuthProvider()
   signInWithPopup(auth, provider)
 }
 
