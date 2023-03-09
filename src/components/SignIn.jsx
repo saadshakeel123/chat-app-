@@ -12,7 +12,9 @@ const googleSignIn = () => {
 function SignIn() {
   return (
     <div className='flex justify-center py-14 rounded-lg'>
-      <GoogleButton onClick={googleSignIn} />
+      <button onClick={googleSignIn}>
+      <GoogleButton  />
+      </button>
     </div>
   )
 }
